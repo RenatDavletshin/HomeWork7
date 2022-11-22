@@ -1,9 +1,9 @@
 ﻿// Напишите программу, которая на вход принимает позиции элемента в 
 // двумерном массиве и возвращает значение этого элемента или же указание,
 // что такого элемента нет.
-Console.WriteLine("Введите номер строки: ");
+Console.WriteLine("Введите количество строк: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите номер столбца: ");
+Console.WriteLine("Введите количество столбцов: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int[,]numbers = new int [4,3];
